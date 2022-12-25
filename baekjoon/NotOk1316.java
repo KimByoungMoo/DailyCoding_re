@@ -2,7 +2,7 @@ package src.baekjoon;
 
 import java.util.Scanner;
 
-public class Main1316 {
+public class NotOk1316 {
     static Scanner input = new Scanner(System.in);
     public static void main(String[] args) {
 

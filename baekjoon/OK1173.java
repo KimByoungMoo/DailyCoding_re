@@ -1,8 +1,8 @@
-package src;
+package src.baekjoon;
 
 import java.util.Scanner;
 
-public class Exercise {
+public class OK1173 {
     public static void main(String[] args) {
         //백준 1173 운동문제
 

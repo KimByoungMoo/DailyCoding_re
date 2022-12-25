@@ -1,11 +1,11 @@
-package src;
+package src.baekjoon;
 
 
 import java.util.Arrays;
 import java.util.Scanner;
 
 // 백준 1233 주사위 문제 -> 제대로 못풀고 레퍼런스 코드를 참고함
-public class Dice {
+public class NotOk1233 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

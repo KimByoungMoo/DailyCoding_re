@@ -3,7 +3,7 @@ package src.baekjoon;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main1350 { //1350문제 틀렸음, 시간초과뜸, 버퍼리더를 사용해서 재도전 해봐야함
+public class NotOk1350 { //1350문제 틀렸음, 시간초과뜸, 버퍼리더를 사용해서 재도전 해봐야함
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 

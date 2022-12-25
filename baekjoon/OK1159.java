@@ -1,9 +1,9 @@
-package src;
+package src.baekjoon;
 
 
 import java.util.Scanner;
 
-public class BasketBall {
+public class OK1159 {
     public static void main(String[] args) {
         // 백준 1159번 문제
         Scanner sc = new Scanner(System.in);

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.Scanner;
 
-public class Main1427 { // 배열 역정렬 문제
+public class NotOk1427 { // 배열 역정렬 문제
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int N = input.nextInt();
