@@ -7,6 +7,10 @@ public class P22 {
         System.out.println(Arrays.toString(bubbleSort(new int[]{3,7,1,4,2,5})));
     }
 
+    public static int[] bubbleSort(int[] arr) {
+        return permutation(0,arr);
+    }
+
     public static int[] swap(int idx1, int idx2, int[] arr) {
         int temp = arr[idx1];
         arr [idx1] = arr[idx2];
@@ -15,7 +19,7 @@ public class P22 {
         return arr;
     }
 
-    public static int[] bubbleSort(int[] arr) {
+    public static int[] permutation(int count, int[] arr) {
         int arrLength = arr.length;
 
         for (int i = 0; i < arrLength; i++) {
@@ -28,7 +32,7 @@ public class P22 {
                 break;
             }
         }
-        return arr;
+        return permutation(count, arr);
     }
 }
 
