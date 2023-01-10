@@ -31,6 +31,8 @@ public class Ok5800 {
             max = arr[arr.length - 1];
             System.out.println("Class " + (i+1));
             System.out.println("Max " + max +"," + " Min " + min + "," + " Largest gap " + largeGap);
+            System.out.printf("Class %d\n", (i+1));
+            System.out.printf("Max %d, Min %d, Largest gap %d\n", max, min, largeGap);
         }
     }
 }
