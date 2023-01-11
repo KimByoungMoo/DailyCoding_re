@@ -3,7 +3,7 @@ package src;
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class Main {
+public class InsertionSort {
 
 
     public static int[] insertionSort(int[] arr) {

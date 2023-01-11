@@ -2,7 +2,7 @@ package src;
 
 import java.util.Arrays;
 
-public class P22 {
+public class NotOkP22 {
     public static void main(String[] args) {
         System.out.println(Arrays.toString(bubbleSort(new int[]{3,7,1,4,2,5})));
     }
