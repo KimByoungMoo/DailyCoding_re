@@ -1,8 +1,10 @@
 package src.baekjoon;
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
-public class NotOk2740 {
+public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -28,20 +30,27 @@ public class NotOk2740 {
         }
 
         String result = "";
+        List<String> list = new ArrayList<>();
         for (int i = 0; i < N; i++) {
             for (int j = 0; j < M; j++) {
                 for (int k = 0; k < K; k++) {
-                    result += Integer.toString(A[i][j] * B[j][k]) + " ";
-                }
-                if (j == M -1) {
-                    result += "\n";
+                    result = Integer.toString(A[i][j] * B[j][k]);
+                    list.add(result);
                 }
             }
         }
-        if (result.contains("0")) {
-            result.replace("0", "");
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i).equals("0")) {
+                list.remove(i);
+            }
         }
-        System.out.println(result);
 
+
+
+        String change = "";
+        for (int i = 0; i < list.size(); i++) {
+            change += list.get(i) + " ";
+        }
+        System.out.println(change);
     }
 }
